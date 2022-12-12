@@ -13,7 +13,7 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(process.env);
+    console.log(process.env.REACT_APP_API_URL);
 
     const registerData = {
       firstName,
