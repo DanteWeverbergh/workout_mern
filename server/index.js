@@ -9,7 +9,6 @@ import morgan from 'morgan';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { register } from './controllers/auth';
-
 /* Configurations */
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

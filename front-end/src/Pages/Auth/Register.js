@@ -22,6 +22,8 @@ function Register() {
       password,
     };
 
+    const formData = new FormData();
+
     console.log(registerData);
   };
 
