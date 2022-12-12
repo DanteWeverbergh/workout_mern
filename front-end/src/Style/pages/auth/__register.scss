@@ -1,0 +1,36 @@
+.register {
+  &__form {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__input {
+      width: 100%;
+
+      input {
+        //
+        width: 75%;
+      }
+    }
+
+    .password {
+      display: flex;
+      position: relative;
+
+      input {
+      }
+      &__icon {
+        color: black;
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        right: 0;
+      }
+    }
+  }
+}
