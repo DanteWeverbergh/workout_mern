@@ -23,14 +23,8 @@ function Register() {
       password,
     };
 
-    const formData = new FormData();
-    formData.append('firstName', firstName);
-    formData.append('lastName', lastName);
-    formData.append('email', email);
-    formData.append('password', password);
-
     axios
-      .post(`${process.env.REACT_APP_API_URL}auth/register`, formData)
+      .post(`${process.env.REACT_APP_API_URL}auth/register`, registerData)
       .then((result) => {
         console.log('result', result);
       })
